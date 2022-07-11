@@ -267,5 +267,5 @@ class expert_handle_anomaly_performance(object):
                                                           df_factor = self.df_factor,
                                                           para = self.para)
         else:
-            raise Exception('input wrong model for regression to get rolling alpha and t-stats')
+            raise Exception('input wrong model for regression to get rolling_performance_ep alpha and t-stats')
         return performance

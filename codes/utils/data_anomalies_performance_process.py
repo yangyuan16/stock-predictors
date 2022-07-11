@@ -57,7 +57,7 @@ class anomaly_performance_regression(object):
         ols_model = sm.OLS(y, sm.add_constant(x)).fit()
         return ols_model
 #====================================================================
-# 形成元组列，通过 rolling 的方式得到滚动的 list
+# 形成元组列，通过 rolling_performance_ep 的方式得到滚动的 list
 def get_rolling_list(table,anomaly,mkt,smb,vmg,index,para):
     table = table.copy()
     table['group'] = 'aaa' # 正加一列辅助列，用于下面的 table.groupby('group') 操作

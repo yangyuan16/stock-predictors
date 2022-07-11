@@ -176,7 +176,7 @@ class regression_OLS():
                                        vmg=vmg_list)
         else:
             raise Exception('input wrong model name')
-        print('spending time of using rolling methods to calculate rsquared \n',
+        print('spending time of using rolling_performance_ep methods to calculate rsquared \n',
               time.time() - t1)  # 216.6257779598236
         return panel
     def OLS_all(self):
@@ -196,6 +196,6 @@ class regression_OLS():
                                        vmg=vmg_list)
         else:
             raise Exception('input wrong model name')
-        print('spending time of using rolling methods to calculate OLS_all \n',
+        print('spending time of using rolling_performance_ep methods to calculate OLS_all \n',
               time.time() - t1)
         return panel

@@ -166,13 +166,13 @@ def update_portfolio_rolling_performance(path_anomaly,path_factor,path_para):
 
     Running this module is the step 6 for the whole algorithm.
 
-    This module is used to calculate the rolling performance of the regression results of
-    portfolio long-short return. In the rolling process of regression, y is the portfolio long-short
+    This module is used to calculate the rolling_performance_ep performance of the regression results of
+    portfolio long-short return. In the rolling_performance_ep process of regression, y is the portfolio long-short
     return calculated according to the predictors, which is saved in the file
     './output/portfolio_ret/portfolio_ret.csv'. Correspondingly, x in regression is the factor model,
     which is saved in the file './output/factor_model/factor_model.csv'.
 
-    This module output the results of the rolling performance of the regression in the
+    This module output the results of the rolling_performance_ep performance of the regression in the
     file './output/portfolio_performance/rolling_performance_predictor.csv'
 
     Args:
@@ -182,7 +182,7 @@ def update_portfolio_rolling_performance(path_anomaly,path_factor,path_para):
     Returns:
         None
     """
-    print('begin the updating the rolling performance of predictors')
+    print('begin the updating the rolling_performance_ep performance of predictors')
     t0 = time.time()
     anomaly_ret = pd.read_csv(path_anomaly)
     factor_ret = pd.read_csv(path_factor)
