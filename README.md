@@ -52,8 +52,8 @@
 >>>
 >>> (d)
 >>>
->>> (e)'./data/para_file/' includes the corresponding parameters files, which can be created by 
->>> 　　running orders: $ python codes.params.XXX.py, where XXX.py are in the path './codes/params/'.  
+>>> (e) './data/para_file/' includes the corresponding parameters files, which can be created by 
+>>> running orders: $ python codes.params.XXX.py, where XXX.py are in the path './codes/params/'.  
 >>>  * For example, running: $ python codes.params.para_construct_portfolio.py to update the file 
       'para_construct_portfolio.csv' in path './data/para_file/'.    
 >> 3. Output files:    
