@@ -36,9 +36,16 @@
 > 1. Running the codes:
 >> $ python codes.main.py   
 > 2. Input files:
->> all input files are in the path ./data/   
+>> all input files are in the path ./data/  
+>>>   ├─data      
+>>>　　　├─basic      
+>>>　　　├─csmar    
+>>>　　　│  ├─csmar_finance    
+>>>　　　│  └─csmar_trade      
+>>>　　　├─para_file     
+>>>　　　└─rf   
 > 3. Output files:    
->> all the results are in the path ./outpath/
+>> all the results are in the path ./output/
 
 * Tips: 
 
