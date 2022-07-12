@@ -44,11 +44,11 @@
 >>>　　　│  └─csmar_trade      
 >>>　　　├─para_file     
 >>>　　　└─rf     
->>> (a) Download csmar_master.sas7bdat from [WRDS](https://wrds-www.wharton.upenn.edu/) to the local path './data/csmar/csmar_finance/'. 
+>>> (a) Download csmar_master.sas7bdat from [WRDS](https://wrds-www.wharton.upenn.edu/) to the local path ['./data/csmar/csmar_finance/'](./data/csmar/csmar_finance/). 
 >>>   
->>> (b) Download csmar_t_mnth.sas7bdat from [WRDS](https://wrds-www.wharton.upenn.edu/) to the local path './data/csmar/csmar_trade/'.    
+>>> (b) Download csmar_t_mnth.sas7bdat from [WRDS](https://wrds-www.wharton.upenn.edu/) to the local path ['./data/csmar/csmar_trade/'](./data/csmar/csmar_trade/).    
 >>>
->>> (c) rf.xlsx in path './data/rf/' is the market risk free return.
+>>> (c) [rf.xlsx](./data/rf/rf.xlsx) in path './data/rf/' is the market risk free return.
 >>>
 >>> (d)
 >>>
