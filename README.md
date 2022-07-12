@@ -44,6 +44,6 @@
 >>　　　├─predictors   
 >>　　　　　├─ ep.py  
 >>　　　　　└─ market_cap.py 
->
+>>
 >> create a predictor_name.py follow the writing styles of examples i.e. ep.py and market_cap.py 
 >> see more details in [Read The Docs](https://stock-predictors.readthedocs.io/en/latest/) 
