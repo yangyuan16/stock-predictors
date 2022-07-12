@@ -57,8 +57,9 @@
 >>> running orders: $ python codes.params.XXX.py, where XXX.py are in the path ['./codes/params/'](./codes/params/).  
 >>>  * For example, running: $ python [codes.params.para_construct_portfolio.py](./codes/params/para_construct_portfolio.py) to update the file 
       ['para_construct_portfolio.csv'](./data/para_file/para_construct_portfolio.csv) in path ['./data/para_file/'](./data/para_file/).    
->> 3. Output files:    
->> all the results are in the path ./output/
+> 3. Output files:      
+>> all the results are in the path ./output/,
+>> see more details in [Read The Docs](https://stock-predictors.readthedocs.io/en/latest/).
 
 * Tips: 
 
@@ -69,8 +70,22 @@
 >>　　　　　├─ ep.py  
 >>　　　　　└─ market_cap.py 
 >>
->> create a predictor_name.py follow the writing styles of examples i.e. ep.py and market_cap.py 
+>> create a predictor_name.py follow the writing styles of examples
+>> i.e. [ep.py](./codes/predictors/ep.py) and [market_cap.py](./codes/predictors/market_cap.py) 
 >> see more details in [Read The Docs](https://stock-predictors.readthedocs.io/en/latest/) 
-  
+> 2. How to set control parameters:
+>> ├─codes      
+>>　　　├─params         
+>>　　　　　└─ para_construct_portfolio.py   
+>> ├─data          
+>>　　　├─para_file     
+>>　　　　　└─ para_construct_portfolio.csv   
+>> Take the parameter file ['para_construct_portfolio.csv'](./data/para_file/para_construct_portfolio.csv)
+>> as an example, there are two ways to set parameters:
+>>  * open csv file ['para_construct_portfolio.csv'](./data/para_file/para_construct_portfolio.csv), 
+ change the corresponding parameters, then save the modifies.  
+    * reset the variables in python file [para_construct_portfolio.py](./codes/params/para_construct_portfolio.py),
+ then running $ python [codes.params.para_construct_portfolio.py](./codes/params/para_construct_portfolio.py).
+
 * Notes:  
 > The frequency of data: monthly.
