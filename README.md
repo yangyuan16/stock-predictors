@@ -41,7 +41,7 @@
 > 1. How to add predictors 
 >
 >> ├─codes      
->>　　　├─predictors 
+>>　　　├─predictors   
 >>　　　　　├─ ep.py  
 >>　　　　　└─ market_cap.py 
 >
