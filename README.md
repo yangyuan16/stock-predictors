@@ -33,8 +33,12 @@
 >　　└─predictors  
 
 * Usage:
-
-> $ python codes.main.py 
+> 1. Running the codes:
+>> $ python codes.main.py   
+> 2. Input files:
+>> all input files are in the path ./data/   
+> 3. Output files:    
+>> all the results are in the path ./outpath/
 
 * Tips: 
 
