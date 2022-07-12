@@ -27,10 +27,10 @@
 │  ├─para_file   
 │  └─rf  
 └─output  
-$~$├─factor_model  
-$~$├─portfolio_performance  
-$~$├─portfolio_ret  
-$~$└─predictors  
+　├─factor_model  
+　├─portfolio_performance  
+　├─portfolio_ret  
+　└─predictors  
 
 ##### veiw docs:
 https://stock-predictors.readthedocs.io/en/latest/
