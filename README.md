@@ -84,7 +84,7 @@
 >> as an example, there are two ways to reset parameters:
 >>  * (a) open csv file ['para_construct_portfolio.csv'](./data/para_file/para_construct_portfolio.csv), 
  change the corresponding parameters, then save the modifies.    
-* (b) reset the variables in python file [para_construct_portfolio.py](./codes/params/para_construct_portfolio.py),
+>> * (b) reset the variables in python file [para_construct_portfolio.py](./codes/params/para_construct_portfolio.py),
  then running $ python [codes.params.para_construct_portfolio.py](./codes/params/para_construct_portfolio.py).
 
 * Notes:  
