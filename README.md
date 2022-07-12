@@ -48,14 +48,15 @@
 >>>   
 >>> (b) Download csmar_t_mnth.sas7bdat from [WRDS](https://wrds-www.wharton.upenn.edu/) to the local path ['./data/csmar/csmar_trade/'](./data/csmar/csmar_trade/).    
 >>>
->>> (c) [rf.xlsx](./data/rf/rf.xlsx) in path './data/rf/' is the market risk free return.
+>>> (c) ['./data/basic/'](./data/basic/) includes a panel data 'basic_data.parquet', which is the merging result of
+>>>   csmar_master.sas7bdat and csmar_t_mnth.sas7bdat when running " $ python [codes.main.py](./codes/main.py)".
 >>>
->>> (d)
+>>> (d) [rf.xlsx](./data/rf/rf.xlsx) in path './data/rf/' is the market risk free return.
 >>>
->>> (e) './data/para_file/' includes the corresponding parameters files, which can be created by 
->>> running orders: $ python codes.params.XXX.py, where XXX.py are in the path './codes/params/'.  
->>>  * For example, running: $ python codes.params.para_construct_portfolio.py to update the file 
-      'para_construct_portfolio.csv' in path './data/para_file/'.    
+>>> (e) ['./data/para_file/'](./data/para_file/) includes the corresponding parameters files, which can be created by 
+>>> running orders: $ python codes.params.XXX.py, where XXX.py are in the path ['./codes/params/'](./codes/params/).  
+>>>  * For example, running: $ python [codes.params.para_construct_portfolio.py](./codes/params/para_construct_portfolio.py) to update the file 
+      ['para_construct_portfolio.csv'](./data/para_file/para_construct_portfolio.csv) in path ['./data/para_file/'](./data/para_file/).    
 >> 3. Output files:    
 >> all the results are in the path ./output/
 
