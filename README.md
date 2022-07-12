@@ -14,23 +14,23 @@
 
 * Directory tree:
 
-├─codes    
-│  ├─factor_model  
-│  ├─params  
-│  ├─predictors  
-│  ├─utils  
-├─data  
-│  ├─basic  
-│  ├─csmar  
-│  │  ├─csmar_finance  
-│  │  └─csmar_trade    
-│  ├─para_file   
-│  └─rf  
-└─output  
-　├─factor_model  
-　├─portfolio_performance  
-　├─portfolio_ret  
-　└─predictors  
+> ├─codes    
+> │  ├─factor_model  
+> │  ├─params  
+> │  ├─predictors  
+> │  ├─utils  
+> ├─data  
+> │  ├─basic  
+> │  ├─csmar  
+> │  │  ├─csmar_finance  
+> │  │  └─csmar_trade    
+> │  ├─para_file   
+> │  └─rf  
+> └─output  
+>　　├─factor_model  
+>　　├─portfolio_performance  
+>　　├─portfolio_ret  
+>　　└─predictors  
 
 ##### veiw docs:
 https://stock-predictors.readthedocs.io/en/latest/
