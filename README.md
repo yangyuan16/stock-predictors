@@ -43,8 +43,16 @@
 >>>　　　│  ├─csmar_finance    
 >>>　　　│  └─csmar_trade      
 >>>　　　├─para_file     
->>>　　　└─rf   
-> 3. Output files:    
+>>>　　　└─rf     
+>>> Download csmar_master.sas7bdat from [WRDS](https://wrds-www.wharton.upenn.edu/) to the local path './data/csmar/csmar_finance/'  
+>>> Download csmar_t_mnth.sas7bdat from [WRDS](https://wrds-www.wharton.upenn.edu/) to the local path './data/csmar/csmar_trade/'  
+>>> rf.xlsx in path './data/rf/' is the market risk free return
+>>> 
+>>> './data/para_file/' includes the corresponding parameters files, which can be created by 
+>>> running orders: $ python codes.params.XXX.py, where XXX.py are in the path './codes/params/'
+>>> For example, running: $ python codes.params.para_construct_portfolio.py to update the file 
+>>> 'para_construct_portfolio.csv' in path './data/para_file/'    
+>> 3. Output files:    
 >> all the results are in the path ./output/
 
 * Tips: 
@@ -58,3 +66,6 @@
 >>
 >> create a predictor_name.py follow the writing styles of examples i.e. ep.py and market_cap.py 
 >> see more details in [Read The Docs](https://stock-predictors.readthedocs.io/en/latest/) 
+  
+* Notes:  
+> The frequency of data: monthly.
