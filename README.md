@@ -1,13 +1,13 @@
 
-###  open-assetpricing-china
+###  Open-assetpricing-china
 
-#### stock-predictors
+#### Stock-predictors
 
-* get the codes:
+* Get the codes:
  
 > $ git clone https://github.com/yangyuan16/stock-predictors.git
 
-* view docs:
+* View docs:
 
 > documentation is now at [Read The Docs](https://stock-predictors.readthedocs.io/en/latest/) 
 > or just click https://stock-predictors.readthedocs.io/en/latest/
@@ -32,5 +32,18 @@
 >　　├─portfolio_ret  
 >　　└─predictors  
 
-##### veiw docs:
-https://stock-predictors.readthedocs.io/en/latest/
+* Usage:
+
+> $ python codes.main.py 
+
+* Tips: 
+
+> 1. How to add predictors 
+>
+>> ├─codes      
+>>　　　├─predictors 
+>>　　　　　├─ ep.py  
+>>　　　　　└─ market_cap.py 
+>　
+> create a predictor_name.py follow the writing styles of examples i.e. ep.py and market_cap.py 
+> see more details in [Read The Docs](https://stock-predictors.readthedocs.io/en/latest/) 
