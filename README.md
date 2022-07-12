@@ -34,7 +34,7 @@
 
 * Usage:
 > 1. Running the codes:
->> $ <font color=red>python codes.main.py</font>   
+>> $ python [codes.main.py](./codes/main.py)   
 > 2. Input files:
 >> all input files are in the path ./data/  
 >>>   ├─data      
